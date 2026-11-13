@@ -39,7 +39,7 @@
   <a href="https://play.google.com/store/apps/details?id=com.golazo.live"><b>Google Play (Android)</b></a> &nbsp;•&nbsp;
   <a href="#architecture"><b>Architecture</b></a> &nbsp;•&nbsp;
   <a href="#core-features"><b>Core Features</b></a> &nbsp;•&nbsp;
-  <a href="https://github.com/mohammad-al-asad/Golazo-Live/issues"><b>Report Bug</b></a>
+  <a href="https://github.com/TAIJULAMAN/Golazo-Live/issues"><b>Report Bug</b></a>
 </p>
 
 <br />
@@ -51,7 +51,7 @@
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [ Title & Value Proposition](#overview)
 - [ Tech Stack Badges](#tech-stack)
@@ -76,25 +76,25 @@
 
 <a id="interface-preview"></a>
 
-## 🖼️ Interface Preview & Production Metrics
+## Interface Preview & Production Metrics
 
 Golazo Live is published worldwide on the **Apple App Store** and **Google Play Store**, serving over **1,000+ football fans** with live match tracking and breaking coverage.
 
-|                                **Apple App Store (iOS)**                                |                                **Google Play Store (Android)**                                 |
-| :-------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
-|   <img src="./showcase/appleStore.png" alt="Golazo Live on App Store" width="480" />    |     <img src="./showcase/playStore.png" alt="Golazo Live on Google Play" width="480" />       |
-|            _Tactical pitch formations, live match minute & league fixtures_             |                _Sub-second score updates across 25+ global competitions_                       |
+|                             **Apple App Store (iOS)**                              |                           **Google Play Store (Android)**                           |
+| :--------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+| <img src="./showcase/appleStore.png" alt="Golazo Live on App Store" width="480" /> | <img src="./showcase/playStore.png" alt="Golazo Live on Google Play" width="480" /> |
+|          _Tactical pitch formations, live match minute & league fixtures_          |              _Sub-second score updates across 25+ global competitions_              |
 
-|                                 **Official Brand Identity**                             |                                **Multi-Lingual Parity (EN / ES)**                             |
-| :-------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
-|       <img src="./showcase/logo.png" alt="Golazo Live Official Logo" width="260" />     |         <img src="./showcase/playStore.png" alt="Multi-Language Support" width="480" />        |
-|                  _High-contrast sports UI optimized for mobile viewing_                 |                 _Full Spanish and English translation powered by i18next_                      |
+|                          **Official Brand Identity**                          |                       **Multi-Lingual Parity (EN / ES)**                        |
+| :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+| <img src="./showcase/logo.png" alt="Golazo Live Official Logo" width="260" /> | <img src="./showcase/playStore.png" alt="Multi-Language Support" width="480" /> |
+|            _High-contrast sports UI optimized for mobile viewing_             |            _Full Spanish and English translation powered by i18next_            |
 
 ---
 
 <a id="core-features"></a>
 
-## ✨ Core Features & Platform Modules
+## Core Features & Platform Modules
 
 Golazo Live delivers sub-second sports intelligence and tactical pitch visualization across domestic leagues, international cups, and continental tournaments.
 
@@ -150,7 +150,7 @@ Golazo Live delivers sub-second sports intelligence and tactical pitch visualiza
 
 <a id="architecture"></a>
 
-## 🏗️ Engineering Highlights & Architecture
+## Engineering Highlights & Architecture
 
 <a id="system-architecture"></a>
 
@@ -183,20 +183,20 @@ Golazo Live coordinates high-speed sports REST APIs, asynchronous response cachi
 
 ### Competition & Coverage Matrix
 
-| Competition Category       | Live Scores | Tactical Pitch Lineups | Head-to-Head & Form | Standings & Stats | News Coverage |
-| :------------------------- | :---------: | :--------------------: | :-----------------: | :---------------: | :-----------: |
-| **Top 5 European Leagues** | Full Access |      Full Access       |     Full Access     |    Full Access    |  Full Access  |
-| **UEFA Champions League**  | Full Access |      Full Access       |     Full Access     |    Full Access    |  Full Access  |
-| **Americas (MLS, Liga MX)**| Full Access |      Full Access       |     Full Access     |    Full Access    |  Full Access  |
-| **Saudi Pro League**       | Full Access |      Full Access       |     Full Access     |    Full Access    |  Full Access  |
-| **Domestic & FA Cups**     | Full Access |      Full Access       |     Full Access     |    Full Access    |  Full Access  |
-| **Women's Champions League**| Full Access |      Full Access       |     Full Access     |    Full Access    |  Full Access  |
+| Competition Category         | Live Scores | Tactical Pitch Lineups | Head-to-Head & Form | Standings & Stats | News Coverage |
+| :--------------------------- | :---------: | :--------------------: | :-----------------: | :---------------: | :-----------: |
+| **Top 5 European Leagues**   | Full Access |      Full Access       |     Full Access     |    Full Access    |  Full Access  |
+| **UEFA Champions League**    | Full Access |      Full Access       |     Full Access     |    Full Access    |  Full Access  |
+| **Americas (MLS, Liga MX)**  | Full Access |      Full Access       |     Full Access     |    Full Access    |  Full Access  |
+| **Saudi Pro League**         | Full Access |      Full Access       |     Full Access     |    Full Access    |  Full Access  |
+| **Domestic & FA Cups**       | Full Access |      Full Access       |     Full Access     |    Full Access    |  Full Access  |
+| **Women's Champions League** | Full Access |      Full Access       |     Full Access     |    Full Access    |  Full Access  |
 
 ---
 
 <a id="project-structure"></a>
 
-## 📂 Project Directory Structure
+## Project Directory Structure
 
 ```plaintext
 Golazo-Live/
@@ -253,7 +253,7 @@ Golazo-Live/
 
 <a id="local-setup"></a>
 
-## 💻 Local Development & Setup
+## Local Development & Setup
 
 ### Prerequisites
 
@@ -265,18 +265,21 @@ Golazo-Live/
 ### Installation & Run
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/mohammad-al-asad/Golazo-Live.git
    cd Golazo-Live
    ```
 
 2. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 3. **Configure Environment Variables:**
    Create a `.env` file in the root directory:
+
    ```env
    EXPO_PUBLIC_FOOTBALL_API_KEY=your_api_football_key
    EXPO_PUBLIC_NEWS_API_KEY=your_newsapi_ai_key
@@ -292,13 +295,17 @@ Golazo-Live/
 
 <a id="developer-info"></a>
 
-## 👨‍💻 Developer Info & Socials
+## Developer Info & Socials
 
 Golazo Live is architected, developed, and maintained by experienced mobile engineers and sports technology specialists.
 
 - **Mohammad Al Asad** — _Lead Mobile & Full-Stack Software Engineer_
   - 🌐 GitHub: [@mohammad-al-asad](https://github.com/mohammad-al-asad)
   - 📧 Email: [maasad11914@gmail.com](mailto:maasad11914@gmail.com)
+
+- **Md Shah Aman Patwary** — _Full-Stack Software Engineer & Architectural Contributor_
+  - 🌐 GitHub: [@TAIJULAMAN](https://github.com/TAIJULAMAN)
+  - 📧 Email: [mdshahamanpatwary@gmail.com](mailto:mdshahamanpatwary@gmail.com)
 
 - **Futbol Mundial** — _Product Owner & Publisher_
 
